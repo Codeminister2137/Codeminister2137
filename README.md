@@ -1,111 +1,60 @@
-# Jakub Jaworski  
-**Python Backend Engineer**
+# Hi, I'm Jakub 👋
 
-I’m a Python backend engineer focused on building **reliable, maintainable systems** and evolving them as requirements become clearer.
+### Python Backend Engineer | Agentic AI & Developer Tools
 
-I enjoy turning ideas into working software, improving architecture over time, and choosing solutions that balance simplicity with real-world constraints.
+I build Python backend systems, AI-powered developer tools, and practical automation software.
 
----
+My current focus is **agentic AI engineering**: bringing together multiple AI providers, building reliable execution workflows, and giving AI agents useful tools while maintaining transparency and human control.
 
-## Technical focus
+I'm particularly interested in provider-agnostic architectures, model orchestration, agentic coding, and the engineering challenges involved in making AI systems reliable.
 
-**Languages & frameworks**
-- Python
-- Django
-- Flask
-- FastAPI
+## 🚀 Currently Building: AI Workbench
 
-**Backend & infrastructure**
-- REST APIs
-- Docker & Docker Compose
-- PostgreSQL
-- Redis
-- Gunicorn
-- NGINX
+**[AI Workbench](https://github.com/Codeminister2137/ai-workbench)** is my main ongoing project — a modular Python platform for AI infrastructure and agent-based development.
 
-**Approach**
-- Backend-first development
-- Clear separation of responsibilities
-- Pragmatic architecture over premature optimization
-- Iterative improvement based on real usage
+Key components:
 
----
+- **AI Provider Layer** — Unified interfaces for local and hosted models, streaming, provider-specific error handling, and native coding-agent integrations.
+- **AI Orchestrator** — Model selection, execution planning, provider fallback, task profiling, and delegation contracts.
+- **Agentic Coding Assistant** — Repository-aware CLI, tool calling, workspace permissions, execution tracking, and validation workflows.
+- **Local AI Council** — A prototype that collects responses from multiple configurable local models through Ollama.
 
-## Selected projects
+The system is actively evolving. Core infrastructure and individual workflows are implemented, while full end-to-end coding acceptance and broader automation capabilities remain under development.
 
-### Task Scheduler — Django (monolith)
-A Docker-based Django application for scheduling tasks and reminders.
+## 🛠️ Technical Stack
 
-This project represents a complete, working backend system with:
-- Django + PostgreSQL
-- Redis
-- NGINX reverse proxy
-- Docker Compose–based local environment
+**Backend:** Python · FastAPI · Django · Flask · REST APIs
 
-Repository:  
-https://github.com/Codeminister2137/Task-scheduler-django
+**AI Engineering:** LLM APIs · AI Agents · Tool Calling · Ollama · Multi-Provider Integration · Orchestration
 
----
+**Data & Infrastructure:** PostgreSQL · PostGIS · SQLite · Redis · Docker · AWS
 
-### TSK — Task Scheduler (microservices)
-A later iteration of the same domain, rebuilt using a **service-oriented approach**.
+**Engineering Practices:** Pytest · Git · CI/CD · OOP · SOLID · Clean Code
 
-The system is split into dedicated services:
-- authentication
-- scheduling / calendar logic
-- email notifications
+## 📂 Other Projects
 
-Each service is implemented as a Django backend and composed together locally.
+### [TSK — Microservices Task Scheduler](https://github.com/Codeminister2137/tsk)
 
-Main repository:  
-https://github.com/Codeminister2137/tsk
+A service-oriented Django application separating authentication, calendar functionality, and email notifications into dedicated services.
 
-Services:
-- https://github.com/Codeminister2137/tsk-auth-service  
-- https://github.com/Codeminister2137/tsk-calendar-service  
-- https://github.com/Codeminister2137/tsk-email-service  
+Demonstrates service boundaries, backend architecture, database integration, and containerized environments.
 
-This project demonstrates architectural thinking, service boundaries, and infrastructure composition.
+### [Task Scheduler — Django](https://github.com/Codeminister2137/Task-scheduler-django)
 
----
+A Docker-based task scheduling and reminder application built with Django, PostgreSQL, Redis, and NGINX.
 
-### Pin-voyage
-A backend-driven map exploration project.
+### [Pin Voyage](https://github.com/Codeminister2137/Pin-voyage)
 
-- Server-side map generation using Folium
-- Users can create, share and rate interasting places and create trips that link them together
-- No frontend framework — backend logic first
+A backend-focused geospatial application for exploring locations, sharing interesting places, and planning trips.
 
-Repository:  
-https://github.com/Codeminister2137/Pin-voyage
+## 💡 Engineering Interests
 
-This project focuses on handling geospatial data and focuses on real user needs.
+- Reliable AI agents and multi-agent systems
+- AI-powered development and workflow automation
+- Provider interoperability and resilient execution
+- Backend architecture and distributed systems
+- Developer productivity tools
 
----
+## 🔗 Connect
 
-## How I work
-
-- I value **code clarity and correctness**
-- I prefer **simple solutions that are easy to reason about**
-- I’m comfortable refactoring systems once requirements stabilize
-- I focus on making software *work well* before making it fancy
-
----
-
-## What I’m looking for
-
-I’m looking for a **backend-focused role** where I can:
-- work primarily with Python
-- contribute to real systems in Django, Flask, or FastAPI
-- grow through collaboration and code review
-- take responsibility for backend features end-to-end
-
----
-
-## Links
-
-- **LinkedIn**  
-  https://www.linkedin.com/in/jakub-jaworski-512966270/
-
-- **GitLab**  
-  https://gitlab.com/Codeminister2137
+[LinkedIn](https://www.linkedin.com/in/jakub-jaworski-512966270/) · [GitLab](https://gitlab.com/Codeminister2137)
